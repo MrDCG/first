@@ -1,0 +1,42 @@
+/* pages/users/users.wxss */
+.bor{
+ 
+ height: 200rpx;
+border:2px solid black;
+border-left: 1px solid transparent;
+border-right: 1px solid transparent;
+background-image:url(http://img4.imgtn.bdimg.com/it/u=1599460800,3117926378&fm=26&gp=0.jpg) ;
+background-color: whitesmoke;
+font-size: 30rpx;
+
+}
+.timage{
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553659461149&di=313e63221bc9ca5573ffb3c573342f5e&imgtype=0&src=http%3A%2F%2Fwww.faxingw.cn%2Fupload%2Fimage%2F20161114%2F1479133331631026.png)  ;
+  
+   background-position:center;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  -moz-background-size:100% 100%;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.infm{
+  position: absolute;
+  top: 15px;
+  left: 90px;
+  height: 150rpx;
+  width: 500px;
+  background-color:transparent;
+  border: 1px solid transparent;
+  font-size: 30rpx;
+}
+.wel{
+  height: 100rpx;
+
+   font-size: 20rpx;
+}

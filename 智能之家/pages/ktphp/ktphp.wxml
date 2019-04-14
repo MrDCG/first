@@ -1,0 +1,51 @@
+
+
+<view class="content" mode="widthFix" >
+   <view  class='today'>
+      <view  class='info'>
+        <view class='temp'>{{future[0].date}}°C</view>
+        <view class='weather'>PM25：{{today.pm25}}{{pollution}}</view>
+
+        <view>友情提示：{{today.index[0].des}}</view>
+        <view class='city'>{{city}}</view>
+      </view>
+    </view>
+     
+     <view class='future'>
+         <view class='future-item'>
+              <view>今天</view>
+               <view> {{future[0].temperature}}</view>
+              <view>{{future[0].weather}}</view>
+              <view>{{future[0].wind}} </view>
+             
+              <view>{{today.index[2].tipt}}</view>
+             <view>{{today.index[2].zs}}</view>
+         </view>
+          <view class='future-item'>
+              <view>{{future[1].date}}</view>
+               <view> {{future[1].temperature}}</view>
+              <view>{{future[1].weather}}</view>
+              <view>{{future[1].wind}} </view>
+              <view>{{today.index[0].tipt}}</view>
+             <view>{{today.index[0].zs}}</view>
+         </view>
+         <view class='future-item'>
+              <view>{{future[2].date}}</view>
+              <view> {{future[2].temperature}}</view>
+              <view>{{future[2].weather}}</view>
+              <view>{{future[2].wind}} </view>
+              <view>{{today.index[1].tipt}}</view>
+             <view>{{today.index[1].zs}}</view>
+         </view>
+         <view class='future-item'>
+              <view>{{future[3].date}}</view>
+              <view> {{future[3].temperature}}</view>
+              <view>{{future[3].weather}}</view>
+              <view>{{future[3].wind}} </view> 
+              <view>{{today.index[3].tipt}}</view>
+             <view>{{today.index[3].zs}}</view>
+         </view>
+    </view>
+      </view>
+  
+

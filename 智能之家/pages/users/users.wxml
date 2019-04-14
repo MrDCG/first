@@ -1,0 +1,14 @@
+<!--pages/users/users.wxml-->
+
+
+
+<view class='bor'  mode="widthFix">
+<navigator url="../../pages/person/person">
+<view class='timage'  mode="widthFix"> </view>
+</navigator>
+<view  class='infm'>小白
+<view class='wel'>欢迎来到智能之家</view>
+</view>
+</view>
+
+

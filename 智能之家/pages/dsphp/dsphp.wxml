@@ -1,0 +1,48 @@
+<!-- pages/wzmlqphp/wzmlqphp.wxml -->
+<view class='content'>
+<view class='info'>
+<text>卧室灯光</text>
+ <switch checked="{{isChecked1}}" bindchange="changeSwitch1"/>
+</view>
+
+<view class='info'>
+<text>厨房灯光</text>
+<switch checked="{{isChecked2}}" bindchange="changeSwitch2"/>
+</view>
+
+<view class='info'>
+<text>客厅灯光</text>
+<switch checked="{{isChecked3}}" bindchange="changeSwitch3"/>
+</view>
+<view class='info'>
+<text>厕所灯光</text>
+<switch checked="{{isChecked4}}" bindchange="changeSwitch4"/>
+</view>
+<view class='info'>
+<text decode="{{true}}">灯光总开关</text>
+<switch checked="{{isChecked5}}" bindchange="changeSwitch5"/>
+</view>
+
+</view>
+
+
+
+<!-- <view class="page">
+
+
+  <view class="page__bd page__bd_spacing">
+    <button class="weui-btn" type="primary" bindtap='onClick_connect'>连接服务器</button>
+    <button class="weui-btn" type="default" bindtap='onClick_SubOne'>打开开关(单个)</button>
+    <button class="weui-btn" type="default" bindtap='onClick_SubMany'>打开开关(多个)</button>
+    <button class="weui-btn" type="primary" plain="true" bindtap='onClick_PubMsg'>向服务器发送消息</button>
+    <button class="weui-btn" type="warn" bindtap='onClick_unSubOne'>关闭开关(单个)</button>
+     <button class="weui-btn" type="warn" bindtap='onClick_unSubMany'>关闭开关(多个)</button>
+  </view>
+ </view> -->
+
+
+
+ 
+
+
+

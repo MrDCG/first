@@ -1,0 +1,22 @@
+.content{
+   font-family: 微软雅黑,宋体;
+ font-weight:bold;
+  font-size:24px;
+  background-size: cover;
+  height:100vh;
+  width: 100vw;
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553869540483&di=01d3e86a03e5b07a2edfd5359ba61aa9&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201505%2F30%2F20150530031326_Vszxt.jpeg");
+  color: #ffffff;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background: #ffffff;
+  
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  
+}

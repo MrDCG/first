@@ -1,0 +1,72 @@
+/* pages/php/php.wxss */
+.content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.screen{
+background-color:white;
+border-radius: 3px;
+text-align: center;
+font-weight: 600;
+font-size: medium;
+color: #666666;
+width:100%;
+height: 50rpx;
+line-height: 20rpx;
+padding-right:10rpx;
+margin-bottom:0rpx;
+padding-top:30rpx;
+}
+.btngrp{
+  display: flex;
+  flex-direction: row;
+}
+.item{
+  width:160rpx;
+  min-height: 150rpx;
+  margin: 10rpx;
+  text-shadow: 0 1px 1px rba(0,0,0,.3);
+  border-radius: 5px;
+  text-align:center;
+  line-height:150rpx;
+  margin-top: 20px;
+}
+
+.pink{
+  color:whitesmoke;
+  border:solid 1px #da7c0c;
+  background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553658455742&di=878c3237bb928c69dab6acf5d6f61833&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F11%2F68%2F08%2F658PICG58PICikz.jpg) ;
+  background-position:center;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  -moz-background-size:100% 100%;
+margin-left: 7px;
+  
+}
+.time{
+  background-color:	#F5F5F5;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+    text-align:center;
+line-height:150rpx;
+
+}
+.section{
+  width: 100vw;
+  height: 300px;
+display:flex; 
+justify-content:center;
+ align-items:center;
+  
+
+}
+
+.slide-image {
+	width: 100%;
+}
+

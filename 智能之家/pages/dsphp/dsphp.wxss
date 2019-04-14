@@ -1,0 +1,34 @@
+/* pages/wzmlqphp/wzmlqphp.wxss */
+.content{
+   font-family: 微软雅黑,宋体;
+ font-weight:bold;
+  font-size:24px;
+  background-size: cover;
+  height:100vh;
+  width: 100vw;
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553865113215&di=43bda6afa8e11b2ae79af2598e90faa3&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn04%2F133%2Fw640h1093%2F20180820%2Fb7a9-hhxaafy8776117.jpg");
+  color: #ffffff;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 5px;
+  background: #ffffff;
+  
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  
+}
+
+
+
+/* view text{
+color: black;
+font-weight:bold;
+text-align:center;
+font-size:24px;
+margin:30px 0px;
+width:100%;
+} */

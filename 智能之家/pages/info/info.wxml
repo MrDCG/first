@@ -1,0 +1,12 @@
+<!--pages/info/info.wxml-->
+<navigator url="../../pages/ktphp/ktphp">
+<view class="info">
+<view>智能空调</view>
+</view>
+</navigator>
+
+<navigator url="../../pages/dsphp/dsphp">
+<view class="info">
+<view>智能电视</view>
+</view>
+</navigator>

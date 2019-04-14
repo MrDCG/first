@@ -1,0 +1,26 @@
+<view class="content">
+<view class='info'>
+<text>客厅窗帘</text>
+<switch checked="{{isChecked1}}" bindchange="changeSwitch1"/>
+</view>
+<view class='info'>
+<text>卧室窗帘1</text>
+<switch checked="{{isChecked2}}" bindchange="changeSwitch2"/>
+</view>
+
+<view class='info'>
+<text>卧室窗帘2</text>
+<switch checked="{{isChecked3}}" bindchange="changeSwitch3"/>
+</view>
+
+<view class='info'>
+<text>书房窗帘</text>
+<switch checked="{{isChecked4}}" bindchange="changeSwitch4"/>
+</view>
+
+
+<view class='info'>
+<text decode="{{true}}">窗帘总开关</text>
+<switch checked="{{isChecked5}}" bindchange="changeSwitch5"/>
+</view>
+</view>

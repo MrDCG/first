@@ -1,0 +1,61 @@
+
+
+.content{
+  font-family: 微软雅黑,宋体;
+  font-size: 14px;
+  background-size: cover;
+  height:100vh;
+  width: 100vw;
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553696593722&di=d447006d38b37385438443163d9860e8&imgtype=0&src=http%3A%2F%2Fp1.gexing.com%2FG1%2FM00%2F75%2FC3%2FrBACE1MvA5ngraHSAAESYDiqWJ8441.jpg");
+  color: #ffffff;
+
+}
+.info{
+  padding: 5px;
+  background: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.today{
+  padding-top: 50rpx;
+  height: 50%;
+}
+.city{
+  color: white;
+  font-size: 16px;
+  text-align: right;
+  margin-right: 10rpx;
+  margin-top: 30rpx;
+}
+.temp{
+  font-size: 50px;
+  text-align: center;
+}
+.weather{
+  text-align: center;
+  }
+  .future{
+    display: flex;
+    flex-direction:row;
+    height: 40%;
+    padding-left: 5rpx;
+    background: #ffffff;
+     background: rgba(247, 238, 238, 0.1); 
+    box-shadow: 10px 10px 20px rgba(252, 249, 249, 0.5);
+    text-align: center;
+    padding-top: 10rpx;
+    padding-bottom: 20rpx; 
+  }
+  .future-item{
+    min-height: 100%;
+    width: 165rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    border: 1px solid rgb(170, 156, 150);
+    border-radius: 10px;
+    padding-top: 10rpx;
+    
+  }
+  .future-item view{
+    margin-top: 10px;
+  }
